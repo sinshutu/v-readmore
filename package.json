@@ -9,7 +9,9 @@
   "private": false,
   "scripts": {
     "dev": "webpack -w --mode=development --config webpack.config.js --progress --hide-modules",
-    "build": "webpack --mode=production --config webpack.config.js --progress --hide-modules"
+    "build": "webpack --mode=production --config webpack.config.js --progress --hide-modules",
+    "play": "poi --config play.config.js",
+    "build:play": "poi build --config play.config.js"
   },
   "dependencies": {},
   "devDependencies": {
@@ -24,8 +26,11 @@
     "babel-preset-latest": "^6.24.1",
     "eslint": "^5.1.0",
     "eslint-plugin-html": "^4.0.5",
+    "getplay": "^0.2.0",
+    "poi": "^8.0.0",
     "vue": "^2.5.16",
     "vue-loader": "^15.2.6",
+    "vue-play": "^3.2.1",
     "vue-template-compiler": "^2.5.16",
     "webpack": "^4.16.1",
     "webpack-cli": "^3.0.8"
