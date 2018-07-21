@@ -1,5 +1,6 @@
 const path = require('path')
 const webpack = require('webpack')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const { VueLoaderPlugin } = require('vue-loader')
 
 module.exports = {
@@ -11,11 +12,19 @@ module.exports = {
     library:'vue-readmore',
     libraryTarget: 'umd'
   },
+  mode: 'none',
   module: {
     rules: [
       {
         test: /\.vue$/,
         loader: 'vue-loader',
+      },
+      {
+        test: /\.s?css$/,
+        use: [
+          process.env.NODE_ENV !== 'production' ? 'vue-style-loader' : MiniCssExtractPlugin.loader,
+          'css-loader'
+        ]
       },
       {
         test: /\.js$/,
@@ -31,6 +40,9 @@ module.exports = {
     new VueLoaderPlugin(),
     new webpack.LoaderOptionsPlugin({
       minimize: true
-    })
+    }),
+    new MiniCssExtractPlugin({
+      filename: 'style.css'
+    }),
   ]
 }
