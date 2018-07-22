@@ -1,8 +1,8 @@
 {
   "name": "vue-readmore",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "A Vue.js read more component",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "repository": "https://github.com/sinshutu/vue-readmore",
   "author": "sinshutu",
   "license": "MIT",
