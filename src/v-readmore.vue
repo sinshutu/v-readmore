@@ -65,13 +65,16 @@ export default {
 .link {
   display: block;
   width: 100%;
-  position: absolute;
   bottom: 0;
   text-align: center;
-  padding-top: 40px;
 }
 .morelink {
+  padding-top: 40px;
+  position: absolute;
   background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(55%, #fff), color-stop(90%, #fff));
   background: linear-gradient(to bottom, transparent 0%, #fff 55%, #fff 90%);
+}
+.lesslink {
+  padding-top: 10px;
 }
 </style>

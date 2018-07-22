@@ -1,18 +1,21 @@
 
-.readmore-wrapper[data-v-9feead82] {
+.readmore-wrapper[data-v-1558437a] {
   position: relative;
   text-align: center;
 }
-.link[data-v-9feead82] {
+.link[data-v-1558437a] {
   display: block;
   width: 100%;
-  position: absolute;
   bottom: 0;
   text-align: center;
-  padding-top: 40px;
 }
-.morelink[data-v-9feead82] {
+.morelink[data-v-1558437a] {
+  padding-top: 40px;
+  position: absolute;
   background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(55%, #fff), color-stop(90%, #fff));
   background: linear-gradient(to bottom, transparent 0%, #fff 55%, #fff 90%);
+}
+.lesslink[data-v-1558437a] {
+  padding-top: 10px;
 }
 
