@@ -86,10 +86,6 @@
     mustache "^2.3.0"
     stack-trace "0.0.10"
 
-"@sinshutu/vue-readmore@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@sinshutu/vue-readmore/-/vue-readmore-0.0.3.tgz#39d7d163d9b09e277b43514a663b6dfcc5fc0c45"
-
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -5716,6 +5712,10 @@ utils-merge@1.0.1:
 uuid@^3.1.0:
   version "3.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
+
+v-readmore@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/v-readmore/-/v-readmore-0.0.5.tgz#87ca727b0743d148e2a43ee58d74f8fa3310df42"
 
 validate-npm-package-license@^3.0.1:
   version "3.0.3"
