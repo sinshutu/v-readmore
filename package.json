@@ -1,14 +1,14 @@
 {
-  "name": "@sinshutu/vue-readmore",
+  "name": "v-readmore",
   "version": "0.0.4",
   "description": "A Vue.js read more component",
   "main": "dist/v-readmore.umd.js",
   "module": "dist/v-readmore.esm.js",
   "unpkg": "dist/v-readmore.min.js",
   "browser": {
-    "./sfc": "src/vue-readmore.vue"
+    "./sfc": "src/v-readmore.vue"
   },
-  "repository": "https://github.com/sinshutu/vue-readmore",
+  "repository": "https://github.com/sinshutu/v-readmore",
   "author": "sinshutu",
   "keywords": [
     "vue",
