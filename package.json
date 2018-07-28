@@ -1,6 +1,6 @@
 {
   "name": "v-readmore",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A Vue.js read more component",
   "main": "dist/v-readmore.umd.js",
   "module": "dist/v-readmore.esm.js",
