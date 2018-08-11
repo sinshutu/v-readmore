@@ -20,7 +20,7 @@ $ yarn add v-readmore
 
   ```js
   import Vue from 'vue'
-  import VReadmore from 'vue-thin-modal'
+  import VReadmore from 'v-readmore'
 
   Vue.use(VReadmore)
 
@@ -51,7 +51,7 @@ If you have `Vue` constructor on `window`, you don't need to call `Vue.use(VRead
 
 * `collapsedHeight` - Number
 
-  Required as the modal name. The `name` must be unique against every modal you would use.
+  Optional - You can specify the height to enable readmore
 
 
 #### Slots
