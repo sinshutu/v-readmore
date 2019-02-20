@@ -6372,9 +6372,9 @@ rollup-plugin-buble@0.19.6:
     buble "^0.19.6"
     rollup-pluginutils "^2.3.3"
 
-rollup-plugin-vue@4.7.1:
-  version "4.7.1"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-vue/-/rollup-plugin-vue-4.7.1.tgz#73c6795c4328593e92b5e3cd3d28ea10896270bd"
+rollup-plugin-vue@4.7.2:
+  version "4.7.2"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-vue/-/rollup-plugin-vue-4.7.2.tgz#463a49815def829d4d731e2227f9ffaebb9bb517"
   dependencies:
     "@vue/component-compiler" "^3.6"
     "@vue/component-compiler-utils" "^2.1.0"
