@@ -46,9 +46,9 @@
     "rollup": "1.2.1",
     "rollup-plugin-buble": "0.19.6",
     "rollup-plugin-vue": "4.7.1",
-    "vue": "2.5.22",
+    "vue": "2.6.10",
     "vue-play": "3.2.1",
-    "vue-template-compiler": "2.5.22"
+    "vue-template-compiler": "2.6.10"
   },
   "babel": {
     "presets": [
